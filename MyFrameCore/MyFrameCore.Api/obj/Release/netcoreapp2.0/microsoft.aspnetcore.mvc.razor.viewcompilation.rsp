@@ -1,0 +1,5 @@
+E:\MyFrameCore\MyFrameCore.Api
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=MyFrameCore.Api
+--content-root=E:\MyFrameCore\MyFrameCore.Api
+--file=

@@ -1,0 +1,8 @@
+E:\MyFrameCore\Dapper\bin\Debug\net451\Dapper.dll
+E:\MyFrameCore\Dapper\bin\Debug\net451\Dapper.pdb
+E:\MyFrameCore\Dapper\obj\Debug\net451\Dapper.csproj.CoreCompileInputs.cache
+E:\MyFrameCore\Dapper\obj\Debug\net451\Dapper.AssemblyInfoInputs.cache
+E:\MyFrameCore\Dapper\obj\Debug\net451\Dapper.AssemblyInfo.cs
+E:\MyFrameCore\Dapper\obj\Debug\net451\Dapper.dll
+E:\MyFrameCore\Dapper\obj\Debug\net451\Dapper.pdb
+E:\MyFrameCore\Dapper\obj\Debug\net451\Dapper.csprojResolveAssemblyReference.cache

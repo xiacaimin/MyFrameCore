@@ -1,0 +1,9 @@
+E:\MyFrameCore\CSRedis\obj\Debug\netcoreapp2.0\CSRedis.csproj.CoreCompileInputs.cache
+E:\MyFrameCore\CSRedis\obj\Debug\netcoreapp2.0\CSRedis.AssemblyInfoInputs.cache
+E:\MyFrameCore\CSRedis\obj\Debug\netcoreapp2.0\CSRedis.AssemblyInfo.cs
+E:\MyFrameCore\CSRedis\bin\Debug\netcoreapp2.0\CSRedis.deps.json
+E:\MyFrameCore\CSRedis\bin\Debug\netcoreapp2.0\CSRedis.dll
+E:\MyFrameCore\CSRedis\bin\Debug\netcoreapp2.0\CSRedis.pdb
+E:\MyFrameCore\CSRedis\obj\Debug\netcoreapp2.0\CSRedis.dll
+E:\MyFrameCore\CSRedis\obj\Debug\netcoreapp2.0\CSRedis.pdb
+E:\MyFrameCore\CSRedis\obj\Debug\netcoreapp2.0\CSRedis.csprojResolveAssemblyReference.cache

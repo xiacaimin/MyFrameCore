@@ -1,0 +1,9 @@
+E:\MyFrameCore\Dapper\bin\Debug\netstandard1.3\Dapper.deps.json
+E:\MyFrameCore\Dapper\bin\Debug\netstandard1.3\Dapper.dll
+E:\MyFrameCore\Dapper\bin\Debug\netstandard1.3\Dapper.pdb
+E:\MyFrameCore\Dapper\obj\Debug\netstandard1.3\Dapper.csprojResolveAssemblyReference.cache
+E:\MyFrameCore\Dapper\obj\Debug\netstandard1.3\Dapper.csproj.CoreCompileInputs.cache
+E:\MyFrameCore\Dapper\obj\Debug\netstandard1.3\Dapper.AssemblyInfoInputs.cache
+E:\MyFrameCore\Dapper\obj\Debug\netstandard1.3\Dapper.AssemblyInfo.cs
+E:\MyFrameCore\Dapper\obj\Debug\netstandard1.3\Dapper.dll
+E:\MyFrameCore\Dapper\obj\Debug\netstandard1.3\Dapper.pdb

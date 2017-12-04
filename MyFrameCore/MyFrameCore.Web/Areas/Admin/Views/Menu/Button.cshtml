@@ -1,0 +1,69 @@
+﻿@model List<MyFrameCore.Model.sys_button>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link rel="stylesheet" href="/Content/jeui/css/jeui.css" media="all">
+    <link rel="stylesheet" href="/Content/jeui/css/skin/jebox.css" media="all">
+</head>
+<body>
+    <input id="MenuId" type="hidden" value="@ViewBag.MenuId" />
+    <div style="height:250px;overflow-y:auto;">
+        @foreach (var item in Model)
+        {
+            <input id="@item.KeyId" type="checkbox" name="checkbox" jename="checkbox" jetext="@item.FullName">
+        }
+    </div>
+    <div style="padding-top:30px;">
+        <button class="je-btn" id="btnOk">提 交</button>
+        <button class="je-btn je-bg-native" id="btnCancel">取 消</button>
+    </div>
+    <script type="text/javascript" src="/Content/jeui/js/modules/jeui.js"></script>
+    <script type="text/javascript">
+        var index = parent.jeBox.frameIndex(window.name);
+        jeui.use(["jquery", "jeBox", "jeCheck"], function () {
+            $("div").jeCheck({ jename: "checkbox" });
+
+            //绑定菜单按钮
+            $.getJSON("/Admin/Menu/GetButton", { MenuId: $("#MenuId").val() }, function (data) {
+                if (data.length > 0) {
+                    for (var i = 0; i < data.length; i++) {
+                        $("#" + data[i].ButtonId).prop("checked", true);
+                        $("#" + data[i].ButtonId).parent().addClass("on");
+                    }
+                }
+            });
+
+            $("#btnOk").click(function () {
+                var str = '';
+                $("input[type=checkbox]:checked").each(function () {
+                    str += $(this).attr("id") + ",";
+                });
+                if (str.length == 0) {
+                    jeBox.msg("请至少选一个按钮才能保存", { icon: 1, time: 2 });
+                    return;
+                }
+                $.post("/Admin/Menu/SaveButton", { MenuId: $("#MenuId").val(), Ids: str }, function (result) {
+                    if (result.Result) {
+                        jeBox.msg("保存成功", { icon: 2, time: 2 });
+                        setTimeout(function () { parent.jeBox.close(index) }, 2000);
+                        return;
+                    }
+                    jeBox.msg("保存失败");
+                });
+            });
+            $("#btnCancel").click(function () {
+                parent.jeBox.close(index);
+            });
+        });
+
+
+    </script>
+</body>
+</html>

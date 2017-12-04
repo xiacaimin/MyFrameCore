@@ -1,0 +1,11 @@
+E:\MyFrameCore\MyFrameCore.Common\obj\Debug\netcoreapp2.0\MyFrameCore.Common.csproj.CoreCompileInputs.cache
+E:\MyFrameCore\MyFrameCore.Common\obj\Debug\netcoreapp2.0\MyFrameCore.Common.AssemblyInfoInputs.cache
+E:\MyFrameCore\MyFrameCore.Common\obj\Debug\netcoreapp2.0\MyFrameCore.Common.AssemblyInfo.cs
+E:\MyFrameCore\MyFrameCore.Common\bin\Debug\netcoreapp2.0\MyFrameCore.Common.deps.json
+E:\MyFrameCore\MyFrameCore.Common\bin\Debug\netcoreapp2.0\MyFrameCore.Common.dll
+E:\MyFrameCore\MyFrameCore.Common\bin\Debug\netcoreapp2.0\MyFrameCore.Common.pdb
+E:\MyFrameCore\MyFrameCore.Common\obj\Debug\netcoreapp2.0\MyFrameCore.Common.dll
+E:\MyFrameCore\MyFrameCore.Common\obj\Debug\netcoreapp2.0\MyFrameCore.Common.pdb
+E:\MyFrameCore\MyFrameCore.Common\obj\Debug\netcoreapp2.0\MyFrameCore.Common.csprojResolveAssemblyReference.cache
+E:\MyFrameCore\MyFrameCore.Common\bin\Debug\netcoreapp2.0\MyFrameCore.Model.dll
+E:\MyFrameCore\MyFrameCore.Common\bin\Debug\netcoreapp2.0\MyFrameCore.Model.pdb

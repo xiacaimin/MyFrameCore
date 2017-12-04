@@ -1,0 +1,11 @@
+E:\MyFrameCore\IDAL\bin\Debug\netcoreapp2.0\MyFrameCore.IDAL.deps.json
+E:\MyFrameCore\IDAL\bin\Debug\netcoreapp2.0\MyFrameCore.IDAL.dll
+E:\MyFrameCore\IDAL\bin\Debug\netcoreapp2.0\MyFrameCore.IDAL.pdb
+E:\MyFrameCore\IDAL\bin\Debug\netcoreapp2.0\MyFrameCore.Model.dll
+E:\MyFrameCore\IDAL\bin\Debug\netcoreapp2.0\MyFrameCore.Model.pdb
+E:\MyFrameCore\IDAL\obj\Debug\netcoreapp2.0\MyFrameCore.IDAL.csprojResolveAssemblyReference.cache
+E:\MyFrameCore\IDAL\obj\Debug\netcoreapp2.0\MyFrameCore.IDAL.csproj.CoreCompileInputs.cache
+E:\MyFrameCore\IDAL\obj\Debug\netcoreapp2.0\MyFrameCore.IDAL.AssemblyInfoInputs.cache
+E:\MyFrameCore\IDAL\obj\Debug\netcoreapp2.0\MyFrameCore.IDAL.AssemblyInfo.cs
+E:\MyFrameCore\IDAL\obj\Debug\netcoreapp2.0\MyFrameCore.IDAL.dll
+E:\MyFrameCore\IDAL\obj\Debug\netcoreapp2.0\MyFrameCore.IDAL.pdb

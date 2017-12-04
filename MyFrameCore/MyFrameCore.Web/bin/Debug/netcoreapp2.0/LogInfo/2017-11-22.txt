@@ -1,0 +1,7 @@
+-------------------2017-11-22 11时35分48秒-----------------
+appsettings是否为空：False
+appsettings.ImgUrl：http://60.205.187.235:8050
+appsettings.ApiUrl：http://60.205.187.235:8060
+appsettings.MyFrameImgRoot：
+-------------------------------------------------------
+

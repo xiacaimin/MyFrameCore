@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dapper\Dapper.csproj" />
+    <ProjectReference Include="..\IDAL\MyFrameCore.IDAL.csproj" />
+    <ProjectReference Include="..\MyFrameCore.Model\MyFrameCore.Model.csproj" />
+    <ProjectReference Include="..\SqlSugar\SqlSugar.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+E:\MyFrameCore\MyFrameCore.BLL\bin\Release\netcoreapp2.0\MyFrameCore.BLL.deps.json
+E:\MyFrameCore\MyFrameCore.BLL\bin\Release\netcoreapp2.0\MyFrameCore.BLL.dll
+E:\MyFrameCore\MyFrameCore.BLL\bin\Release\netcoreapp2.0\MyFrameCore.BLL.pdb
+E:\MyFrameCore\MyFrameCore.BLL\bin\Release\netcoreapp2.0\MyFrameCore.DAL.dll
+E:\MyFrameCore\MyFrameCore.BLL\bin\Release\netcoreapp2.0\MyFrameCore.IDAL.dll
+E:\MyFrameCore\MyFrameCore.BLL\bin\Release\netcoreapp2.0\MyFrameCore.Model.dll
+E:\MyFrameCore\MyFrameCore.BLL\bin\Release\netcoreapp2.0\SqlSugar.dll
+E:\MyFrameCore\MyFrameCore.BLL\bin\Release\netcoreapp2.0\MyFrameCore.DAL.pdb
+E:\MyFrameCore\MyFrameCore.BLL\bin\Release\netcoreapp2.0\MyFrameCore.IDAL.pdb
+E:\MyFrameCore\MyFrameCore.BLL\bin\Release\netcoreapp2.0\MyFrameCore.Model.pdb
+E:\MyFrameCore\MyFrameCore.BLL\bin\Release\netcoreapp2.0\SqlSugar.pdb
+E:\MyFrameCore\MyFrameCore.BLL\obj\Release\netcoreapp2.0\MyFrameCore.BLL.csprojResolveAssemblyReference.cache
+E:\MyFrameCore\MyFrameCore.BLL\obj\Release\netcoreapp2.0\MyFrameCore.BLL.csproj.CoreCompileInputs.cache
+E:\MyFrameCore\MyFrameCore.BLL\obj\Release\netcoreapp2.0\MyFrameCore.BLL.AssemblyInfoInputs.cache
+E:\MyFrameCore\MyFrameCore.BLL\obj\Release\netcoreapp2.0\MyFrameCore.BLL.AssemblyInfo.cs
+E:\MyFrameCore\MyFrameCore.BLL\obj\Release\netcoreapp2.0\MyFrameCore.BLL.dll
+E:\MyFrameCore\MyFrameCore.BLL\obj\Release\netcoreapp2.0\MyFrameCore.BLL.pdb

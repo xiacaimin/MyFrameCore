@@ -1,0 +1,9 @@
+E:\MyFrameCore\SqlSugar\bin\Release\netstandard2.0\SqlSugar.deps.json
+E:\MyFrameCore\SqlSugar\bin\Release\netstandard2.0\SqlSugar.dll
+E:\MyFrameCore\SqlSugar\bin\Release\netstandard2.0\SqlSugar.pdb
+E:\MyFrameCore\SqlSugar\obj\Release\netstandard2.0\SqlSugar.csprojResolveAssemblyReference.cache
+E:\MyFrameCore\SqlSugar\obj\Release\netstandard2.0\SqlSugar.csproj.CoreCompileInputs.cache
+E:\MyFrameCore\SqlSugar\obj\Release\netstandard2.0\SqlSugar.AssemblyInfoInputs.cache
+E:\MyFrameCore\SqlSugar\obj\Release\netstandard2.0\SqlSugar.AssemblyInfo.cs
+E:\MyFrameCore\SqlSugar\obj\Release\netstandard2.0\SqlSugar.dll
+E:\MyFrameCore\SqlSugar\obj\Release\netstandard2.0\SqlSugar.pdb

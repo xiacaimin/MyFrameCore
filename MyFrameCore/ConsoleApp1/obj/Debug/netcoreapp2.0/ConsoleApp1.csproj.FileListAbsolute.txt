@@ -1,0 +1,17 @@
+E:\MyFrameCore\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.deps.json
+E:\MyFrameCore\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.runtimeconfig.json
+E:\MyFrameCore\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.runtimeconfig.dev.json
+E:\MyFrameCore\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.dll
+E:\MyFrameCore\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.pdb
+E:\MyFrameCore\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.csprojResolveAssemblyReference.cache
+E:\MyFrameCore\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\MyFrameCore\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfoInputs.cache
+E:\MyFrameCore\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfo.cs
+E:\MyFrameCore\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.dll
+E:\MyFrameCore\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.pdb
+E:\MyFrameCore\ConsoleApp1\bin\Debug\netcoreapp2.0\MyFrameCore.Common.dll
+E:\MyFrameCore\ConsoleApp1\bin\Debug\netcoreapp2.0\MyFrameCore.Common.pdb
+E:\MyFrameCore\ConsoleApp1\bin\Debug\netcoreapp2.0\CSRedis.dll
+E:\MyFrameCore\ConsoleApp1\bin\Debug\netcoreapp2.0\CSRedis.pdb
+E:\MyFrameCore\ConsoleApp1\bin\Debug\netcoreapp2.0\MyFrameCore.Model.dll
+E:\MyFrameCore\ConsoleApp1\bin\Debug\netcoreapp2.0\MyFrameCore.Model.pdb

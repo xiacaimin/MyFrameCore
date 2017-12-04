@@ -1,0 +1,134 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>je-tree</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="wcodeth=device-wcodeth, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/Content/jeui/css/jeui.css" media="all">
+    <link rel="stylesheet" href="/Content/jeui/css/skin/jebox.css" media="all">
+    <link href="~/Content/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="/Content/zTree/css/awesomeStyle/awesome.css" rel="stylesheet" />
+    <script type="text/javascript" src="/Content/zTree/js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="/Content/zTree/js/jquery.ztree.core.js"></script>
+    <script type="text/javascript" src="/Content/zTree/js/jquery.ztree.excheck.js"></script>
+    <script type="text/javascript" src="/Content/zTree/js/jquery.ztree.exedit.js"></script>
+    <script type="text/javascript" src="/Content/jeui/js/modules/jeui.js"></script>
+</head>
+<body>
+    <div class="je-p20">
+        <blockquote class="je-quote green je-f16 je-ovh  je-mb10">
+            <p class="je-pb5">
+                <h2>字典管理</h2>
+            </p>
+        </blockquote>
+        <div class="bg left">
+            <ul id="treeDemo" class="ztree"></ul>
+        </div>
+    </div>
+    
+</body>
+
+
+</html>
+
+<script type="text/javascript">
+    jeui.use(["jquery", "jeBox"], function () {
+
+    });
+    var setting = {
+        view: {
+            addHoverDom: addHoverDom,
+            removeHoverDom: removeHoverDom,
+            selectedMulti: false
+        },
+        data: {
+            simpleData: {
+                enable: true
+            }
+        },
+        edit: {
+            enable: true,
+            drag: {
+                isMove: false,
+                isCopy: false
+            }
+        }
+        ,
+        callback: {
+            beforeEditName: beforeEditName,
+            beforeRemove: beforeRemove
+        }
+    };
+
+
+    $(document).ready(function () {
+        $.ajax({
+            url: "/Admin/Dictionary/GetDictionary",
+            type: "get",
+            dataType: "json",
+            success: function (ztreeData) {
+                $.fn.zTree.init($("#treeDemo"), setting, ztreeData);
+            },
+            async: false//必须同步才能保证一定加载数据
+        });
+
+    });
+    //节点编辑
+    function beforeEditName(treeId, treeNode) {
+        openAddDialog(treeNode.id, treeNode.pId, treeNode);
+        return true;
+    }
+    //删除
+    function beforeRemove(treeId, treeNode) {
+        if (confirm("确认删除节点【 " + treeNode.name + " 】吗？")) {
+            $.getJSON("@Url.Action("Delete")", { KeyId: treeNode.id }, function (result) {
+                //location.reload();
+            });
+            return true;
+        }
+        return false;
+    }
+
+    //弹出窗体，新增或者修改用户信息
+    function openAddDialog(id, pid, treeNode) {
+        var flag = false;
+        var url = '/Admin/Dictionary/Create';
+        if (id == null || id == 0) {
+            flag = true;
+            url += '?PId=' + treeNode.id;
+            url += '&PName=' + treeNode.name;
+        }
+        else {
+            url += '?PId=' + (pid==null ? '' : pid);
+            url += '&PName=' + (treeNode.getParentNode() != null ? treeNode.getParentNode().name : '');
+            url += '&KeyId=' + id;
+        }
+        jeBox.open({
+            title: (id == 0 ? '新增' : '修改'),
+            type: 'iframe',
+            boxSize: ['700px', '520px'],
+            maskClose: false,
+            scrollbar: false,
+            content: url
+        });
+    }
+
+    function addHoverDom(treeId, treeNode) {
+        var sObj = $("#" + treeNode.tId + "_span");
+        if (treeNode.editNameFlag || $("#addBtn_" + treeNode.tId).length > 0) return;
+        var addStr = "<span class='button add' id='addBtn_" + treeNode.tId
+            + "' title='add node' onfocus='this.blur();'></span>";
+        sObj.after(addStr);
+        var btn = $("#addBtn_" + treeNode.tId);
+        if (btn) btn.bind("click", function () {
+            openAddDialog(0, treeNode.pId, treeNode);
+            return false;
+        });
+    };
+    function removeHoverDom(treeId, treeNode) {
+        $("#addBtn_" + treeNode.tId).unbind().remove();
+    };
+
+</script>

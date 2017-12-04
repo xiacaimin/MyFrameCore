@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CSRedis\CSRedis.csproj" />
+    <ProjectReference Include="..\MyFrameCore.Common\MyFrameCore.Common.csproj" />
+  </ItemGroup>
+
+</Project>

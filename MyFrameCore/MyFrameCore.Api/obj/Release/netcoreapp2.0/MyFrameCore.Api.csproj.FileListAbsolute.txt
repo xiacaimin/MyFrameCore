@@ -1,0 +1,15 @@
+E:\MyFrameCore\MyFrameCore.Api\bin\Release\netcoreapp2.0\MyFrameCore.Api.deps.json
+E:\MyFrameCore\MyFrameCore.Api\bin\Release\netcoreapp2.0\MyFrameCore.Api.runtimeconfig.json
+E:\MyFrameCore\MyFrameCore.Api\bin\Release\netcoreapp2.0\MyFrameCore.Api.runtimeconfig.dev.json
+E:\MyFrameCore\MyFrameCore.Api\bin\Release\netcoreapp2.0\MyFrameCore.Api.dll
+E:\MyFrameCore\MyFrameCore.Api\bin\Release\netcoreapp2.0\MyFrameCore.Api.pdb
+E:\MyFrameCore\MyFrameCore.Api\bin\Release\netcoreapp2.0\MyFrameCore.Common.dll
+E:\MyFrameCore\MyFrameCore.Api\bin\Release\netcoreapp2.0\MyFrameCore.Model.dll
+E:\MyFrameCore\MyFrameCore.Api\bin\Release\netcoreapp2.0\MyFrameCore.Common.pdb
+E:\MyFrameCore\MyFrameCore.Api\bin\Release\netcoreapp2.0\MyFrameCore.Model.pdb
+E:\MyFrameCore\MyFrameCore.Api\obj\Release\netcoreapp2.0\MyFrameCore.Api.csprojResolveAssemblyReference.cache
+E:\MyFrameCore\MyFrameCore.Api\obj\Release\netcoreapp2.0\MyFrameCore.Api.csproj.CoreCompileInputs.cache
+E:\MyFrameCore\MyFrameCore.Api\obj\Release\netcoreapp2.0\MyFrameCore.Api.AssemblyInfoInputs.cache
+E:\MyFrameCore\MyFrameCore.Api\obj\Release\netcoreapp2.0\MyFrameCore.Api.AssemblyInfo.cs
+E:\MyFrameCore\MyFrameCore.Api\obj\Release\netcoreapp2.0\MyFrameCore.Api.dll
+E:\MyFrameCore\MyFrameCore.Api\obj\Release\netcoreapp2.0\MyFrameCore.Api.pdb
