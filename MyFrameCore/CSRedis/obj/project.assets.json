@@ -816,11 +816,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\MyFrameCore\\CSRedis\\CSRedis.csproj",
+      "projectUniqueName": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\CSRedis\\CSRedis.csproj",
       "projectName": "CSRedis",
-      "projectPath": "E:\\MyFrameCore\\CSRedis\\CSRedis.csproj",
+      "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\CSRedis\\CSRedis.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\MyFrameCore\\CSRedis\\obj\\",
+      "outputPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\CSRedis\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

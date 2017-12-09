@@ -12558,11 +12558,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\MyFrameCore\\MyFrameCore.Common\\MyFrameCore.Common.csproj",
+      "projectUniqueName": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Common\\MyFrameCore.Common.csproj",
       "projectName": "MyFrameCore.Common",
-      "projectPath": "E:\\MyFrameCore\\MyFrameCore.Common\\MyFrameCore.Common.csproj",
+      "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Common\\MyFrameCore.Common.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\MyFrameCore\\MyFrameCore.Common\\obj\\",
+      "outputPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12581,8 +12581,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj": {
-              "projectPath": "E:\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj"
+            "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj": {
+              "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj"
             }
           }
         }

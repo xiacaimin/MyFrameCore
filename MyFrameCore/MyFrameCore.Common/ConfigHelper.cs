@@ -28,7 +28,7 @@ namespace MyFrameCore.Common
                     result = streamReader.ReadToEnd();
                 }
                 JObject jobject = (JObject)JsonConvert.DeserializeObject(result.Replace("\r\n", ""));
-                return JsonConvert.DeserializeObject<AppSettings>(jobject["AppSettings"].ToString());
+                WebJsonConfig.JsonInfo = jobject["AppSettings"].ToString();
             }
             return JsonConvert.DeserializeObject<AppSettings>(WebJsonConfig.JsonInfo);
         }

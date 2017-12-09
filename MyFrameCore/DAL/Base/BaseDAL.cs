@@ -1,8 +1,11 @@
 ﻿using MyFrameCore.IDAL;
 using MyFrameCore.Model;
+using MySql.Data.MySqlClient;
 using SqlSugar;
 using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -136,6 +139,38 @@ namespace MyFrameCore.DAL
         }
     }
 
+    /**************
+     * 
+     * 
+     数据库连接方式用字符串值代替xml配置获取更安全，更利于资源释放，减少IO消耗
+     * 
+     * 
+    **************/
+
+    public class DapperDB
+    {
+        /// <summary>
+        /// mysql数据库链接
+        /// </summary>
+        public static IDbConnection MySqlDB
+        {
+            get
+            {
+                return new MySqlConnection("Database=myframedata;Data Source=60.205.187.235;User Id=root;Password=xcm123;pooling=false;CharSet=utf8;port=3306");
+            }
+        }
+        /// <summary>
+        /// sqlserver数据库链接
+        /// </summary>
+        public static IDbConnection SqlServerDB
+        {
+            get
+            {
+                return new SqlConnection("");
+            }
+        }
+    }
+
     public class SqlSugarDB
     {
 
@@ -146,15 +181,13 @@ namespace MyFrameCore.DAL
         {
             get
             {
-                //数据库连接方式用字符串值代替xml配置获取更安全，更利于资源释放，减少IO消耗
+                
                 return new SqlSugarClient(new ConnectionConfig()
                 {
                     //连接字符串
-                    //ConnectionString = "Data Source=.;Initial Catalog=MyData;Persist Security Info=True;User ID=sa;Password=123456;MultipleActiveResultSets=True",//PubConstant.ConnectionString",
-                    //ConnectionString = "Database=myframedata;Data Source=127.0.0.1;User Id=root;Password=root;pooling=false;CharSet=utf8;port=3307",
                     ConnectionString = "Database=myframedata;Data Source=60.205.187.235;User Id=root;Password=xcm123;pooling=false;CharSet=utf8;port=3306",
                     //数据库类型
-                    DbType = DbType.MySql,//必填
+                    DbType =SqlSugar.DbType.MySql,//必填
                     //是否自动释放数据库默认false
                     IsAutoCloseConnection = true,
                     //初始化主键和自增列信息的方式 (InitKeyType.SystemTable表示自动从数据库读取主键自增列的信息；InitKeyType.Attribute 表示从属性中读取 主键和自增列的信息)
@@ -173,9 +206,11 @@ namespace MyFrameCore.DAL
                 return new SqlSugarClient(new ConnectionConfig()
                 {
                     //连接字符串
+                    //ConnectionString = "Data Source=.;Initial Catalog=MyData;Persist Security Info=True;User ID=sa;Password=123456;MultipleActiveResultSets=True",//PubConstant.ConnectionString",
+                    //ConnectionString = "Database=myframedata;Data Source=127.0.0.1;User Id=root;Password=root;pooling=false;CharSet=utf8;port=3307",
                     ConnectionString = "server=192.168.1.150;Database=mydata;Uid=root;Pwd=123456;", //必填
                     //数据库类型
-                    DbType = DbType.MySql,//必填
+                    DbType = SqlSugar.DbType.MySql,//必填
                     //是否自动释放数据库默认false
                     IsAutoCloseConnection = true,
                     //初始化主键和自增列信息的方式 (InitKeyType.SystemTable表示自动从数据库读取主键自增列的信息；InitKeyType.Attribute 表示从属性中读取 主键和自增列的信息)

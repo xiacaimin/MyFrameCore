@@ -5636,11 +5636,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\MyFrameCore\\Dapper\\Dapper.csproj",
+      "projectUniqueName": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\Dapper\\Dapper.csproj",
       "projectName": "Dapper",
-      "projectPath": "E:\\MyFrameCore\\Dapper\\Dapper.csproj",
+      "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\Dapper\\Dapper.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\MyFrameCore\\Dapper\\obj\\",
+      "outputPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\Dapper\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

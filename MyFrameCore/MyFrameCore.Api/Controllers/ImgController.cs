@@ -5,9 +5,14 @@ using System.IO;
 using MyFrameCore.Common;
 using MyFrameCore.Model;
 using Microsoft.Extensions.Options;
+using MyFrameCore.Api.Service;
+using MySql.Data.MySqlClient.Framework.NetCore10;
 
 namespace MyFrameCore.Api.Controllers
 {
+    /*
+     * 安全验证与[FromBody]不兼容，如果不用[FromBody]，Action参数不能直接获取
+     * */
     [Route("api/[controller]/[action]")]
     public class ImgController : Controller
     {
@@ -15,6 +20,21 @@ namespace MyFrameCore.Api.Controllers
         public ImgController(IOptions<AppSettings> option)
         {
             this.appsettings = option.Value;
+        }
+
+        [HttpPost]
+        public ExecuteResult GetUserInfo([FromBody]sys_user model)
+        {
+            UserService service = new UserService();
+            ExecuteResult er = new ExecuteResult { Result = false, Message = "用户名或密码错误" };
+            var user = service.GetUserInfo(model.Account, model.PassWord);
+            if (user != null)
+            {
+                er.Result = true;
+                er.Message = string.Empty;
+                er.ReturnVal = user;
+            }
+            return er;
         }
 
         [HttpPost]

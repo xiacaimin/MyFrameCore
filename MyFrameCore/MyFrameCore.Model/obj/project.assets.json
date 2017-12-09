@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj",
+      "projectUniqueName": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj",
       "projectName": "MyFrameCore.Model",
-      "projectPath": "E:\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj",
+      "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\MyFrameCore\\MyFrameCore.Model\\obj\\",
+      "outputPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

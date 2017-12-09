@@ -16,3 +16,12 @@ E:\MyFrameCore\SqlSugar\obj\Debug\netstandard2.0\SqlSugar.AssemblyInfo.cs
 E:\MyFrameCore\SqlSugar\obj\Debug\netstandard2.0\SqlSugar.dll
 E:\MyFrameCore\SqlSugar\obj\Debug\netstandard2.0\SqlSugar.pdb
 E:\MyFrameCore\SqlSugar\obj\Debug\netstandard2.0\SqlSugar.csprojResolveAssemblyReference.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\SqlSugar\bin\Debug\netstandard2.0\SqlSugar.deps.json
+D:\MyFrameCore\MyFrameCore\MyFrameCore\SqlSugar\bin\Debug\netstandard2.0\SqlSugar.dll
+D:\MyFrameCore\MyFrameCore\MyFrameCore\SqlSugar\bin\Debug\netstandard2.0\SqlSugar.pdb
+D:\MyFrameCore\MyFrameCore\MyFrameCore\SqlSugar\obj\Debug\netstandard2.0\SqlSugar.csprojResolveAssemblyReference.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\SqlSugar\obj\Debug\netstandard2.0\SqlSugar.csproj.CoreCompileInputs.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\SqlSugar\obj\Debug\netstandard2.0\SqlSugar.AssemblyInfoInputs.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\SqlSugar\obj\Debug\netstandard2.0\SqlSugar.AssemblyInfo.cs
+D:\MyFrameCore\MyFrameCore\MyFrameCore\SqlSugar\obj\Debug\netstandard2.0\SqlSugar.dll
+D:\MyFrameCore\MyFrameCore\MyFrameCore\SqlSugar\obj\Debug\netstandard2.0\SqlSugar.pdb

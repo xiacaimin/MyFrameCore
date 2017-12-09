@@ -11,13 +11,14 @@ using MyFrameCore.Model.Extend;
 
 namespace MyFrameCore.Web.Areas.Admin.Controllers
 {
-    public class LoginController : Controller
+    public class LoginController : BaseController
     {
         Sys_UserBLL userbll;
         AppSettings appsettings;
         public LoginController(Sys_UserBLL userbll)
         {
             this.userbll = userbll;
+            this.appsettings = base.AppSettings;
         }
 
         /// <summary>

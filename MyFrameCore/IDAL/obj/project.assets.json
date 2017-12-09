@@ -689,11 +689,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\MyFrameCore\\IDAL\\MyFrameCore.IDAL.csproj",
+      "projectUniqueName": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\IDAL\\MyFrameCore.IDAL.csproj",
       "projectName": "MyFrameCore.IDAL",
-      "projectPath": "E:\\MyFrameCore\\IDAL\\MyFrameCore.IDAL.csproj",
+      "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\IDAL\\MyFrameCore.IDAL.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\MyFrameCore\\IDAL\\obj\\",
+      "outputPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\IDAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -712,8 +712,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj": {
-              "projectPath": "E:\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj"
+            "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj": {
+              "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj"
             }
           }
         }

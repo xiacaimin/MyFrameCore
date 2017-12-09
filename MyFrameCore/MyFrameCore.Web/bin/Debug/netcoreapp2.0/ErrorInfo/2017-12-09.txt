@@ -1,0 +1,102 @@
+-------------------2017-12-09 10时44分57秒-----------------
+api失败：One or more errors occurred. (A task was canceled.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 310
+-------------------------------------------------------
+
+-------------------2017-12-09 11时14分06秒-----------------
+api失败：One or more errors occurred. (An error occurred while sending the request.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 310
+-------------------------------------------------------
+
+-------------------2017-12-09 11时22分43秒-----------------
+api失败：One or more errors occurred. (An error occurred while sending the request.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 311
+-------------------------------------------------------
+
+-------------------2017-12-09 11时23分41秒-----------------
+api失败：One or more errors occurred. (An error occurred while sending the request.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 311
+-------------------------------------------------------
+
+-------------------2017-12-09 11时45分26秒-----------------
+api失败：One or more errors occurred. (A task was canceled.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 311
+-------------------------------------------------------
+
+-------------------2017-12-09 12时29分57秒-----------------
+api失败：One or more errors occurred. (An error occurred while sending the request.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 311
+-------------------------------------------------------
+
+-------------------2017-12-09 12时32分07秒-----------------
+api失败：One or more errors occurred. (An error occurred while sending the request.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 311
+-------------------------------------------------------
+
+-------------------2017-12-09 12时38分49秒-----------------
+api失败：One or more errors occurred. (An error occurred while sending the request.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 311
+-------------------------------------------------------
+
+-------------------2017-12-09 12时40分39秒-----------------
+api失败：One or more errors occurred. (An error occurred while sending the request.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 311
+-------------------------------------------------------
+
+-------------------2017-12-09 12时42分01秒-----------------
+api失败：One or more errors occurred. (Error while copying content to a stream.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 311
+-------------------------------------------------------
+
+-------------------2017-12-09 12时42分41秒-----------------
+api失败：One or more errors occurred. (An error occurred while sending the request.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 311
+-------------------------------------------------------
+
+-------------------2017-12-09 12时45分15秒-----------------
+api失败：One or more errors occurred. (An error occurred while sending the request.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 311
+-------------------------------------------------------
+
+-------------------2017-12-09 12时46分06秒-----------------
+api失败：One or more errors occurred. (An error occurred while sending the request.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 311
+-------------------------------------------------------
+
+-------------------2017-12-09 12时51分58秒-----------------
+api失败：One or more errors occurred. (An error occurred while sending the request.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 311
+-------------------------------------------------------
+
+-------------------2017-12-09 12时56分47秒-----------------
+api失败：One or more errors occurred. (An error occurred while sending the request.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 311
+-------------------------------------------------------
+
+-------------------2017-12-09 14时22分57秒-----------------
+api失败：One or more errors occurred. (An error occurred while sending the request.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 313
+-------------------------------------------------------
+
+-------------------2017-12-09 14时36分30秒-----------------
+api失败：One or more errors occurred. (An error occurred while sending the request.)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyFrameCore.Web.HttpClientHelper.PostResponse[T](String url, Object postData) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\HttpClientHelper.cs:line 313
+-------------------------------------------------------
+

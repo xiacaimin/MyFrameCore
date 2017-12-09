@@ -1,6 +1,7 @@
 ﻿using MyFrameCore.IDAL;
 using MyFrameCore.Model;
 using SqlSugar;
+using Dapper;//dapper数据操作方式
 using System;
 using System.Collections.Generic;
 
@@ -100,6 +101,16 @@ namespace MyFrameCore.DAL
         /// <returns></returns>
         public sys_user GetUserInfo(string Account, string PassWord)
         {
+            //using (var db = DapperDB.MySqlDB)
+            //{
+            //    return db.QueryFirst<sys_user>("select * from sys_user where Account=@Account and PassWord=@PassWord",
+            //        new
+            //        {
+            //            Account = Account,
+            //            PassWord = PassWord
+            //        }
+            //        );
+            //}
             using (var db = SqlSugarDB.MasterDB)
             {
                 return db.Queryable<sys_user>().Where(item => item.Account == Account && item.PassWord == PassWord).Single();

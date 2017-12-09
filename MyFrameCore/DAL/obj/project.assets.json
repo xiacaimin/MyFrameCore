@@ -7346,11 +7346,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\MyFrameCore\\DAL\\MyFrameCore.DAL.csproj",
+      "projectUniqueName": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\DAL\\MyFrameCore.DAL.csproj",
       "projectName": "MyFrameCore.DAL",
-      "projectPath": "E:\\MyFrameCore\\DAL\\MyFrameCore.DAL.csproj",
+      "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\DAL\\MyFrameCore.DAL.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\MyFrameCore\\DAL\\obj\\",
+      "outputPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7369,17 +7369,17 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\MyFrameCore\\IDAL\\MyFrameCore.IDAL.csproj": {
-              "projectPath": "E:\\MyFrameCore\\IDAL\\MyFrameCore.IDAL.csproj"
+            "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\IDAL\\MyFrameCore.IDAL.csproj": {
+              "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\IDAL\\MyFrameCore.IDAL.csproj"
             },
-            "E:\\MyFrameCore\\SqlSugar\\SqlSugar.csproj": {
-              "projectPath": "E:\\MyFrameCore\\SqlSugar\\SqlSugar.csproj"
+            "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\SqlSugar\\SqlSugar.csproj": {
+              "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\SqlSugar\\SqlSugar.csproj"
             },
-            "E:\\MyFrameCore\\Dapper\\Dapper.csproj": {
-              "projectPath": "E:\\MyFrameCore\\Dapper\\Dapper.csproj"
+            "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\Dapper\\Dapper.csproj": {
+              "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\Dapper\\Dapper.csproj"
             },
-            "E:\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj": {
-              "projectPath": "E:\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj"
+            "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj": {
+              "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj"
             }
           }
         }

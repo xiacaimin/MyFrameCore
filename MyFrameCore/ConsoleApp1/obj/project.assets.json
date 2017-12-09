@@ -12595,11 +12595,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\MyFrameCore\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "E:\\MyFrameCore\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\MyFrameCore\\ConsoleApp1\\obj\\",
+      "outputPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12618,11 +12618,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\MyFrameCore\\CSRedis\\CSRedis.csproj": {
-              "projectPath": "E:\\MyFrameCore\\CSRedis\\CSRedis.csproj"
+            "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\CSRedis\\CSRedis.csproj": {
+              "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\CSRedis\\CSRedis.csproj"
             },
-            "E:\\MyFrameCore\\MyFrameCore.Common\\MyFrameCore.Common.csproj": {
-              "projectPath": "E:\\MyFrameCore\\MyFrameCore.Common\\MyFrameCore.Common.csproj"
+            "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Common\\MyFrameCore.Common.csproj": {
+              "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Common\\MyFrameCore.Common.csproj"
             }
           }
         }

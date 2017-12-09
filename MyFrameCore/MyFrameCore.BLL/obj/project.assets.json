@@ -7366,11 +7366,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\MyFrameCore\\MyFrameCore.BLL\\MyFrameCore.BLL.csproj",
+      "projectUniqueName": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.BLL\\MyFrameCore.BLL.csproj",
       "projectName": "MyFrameCore.BLL",
-      "projectPath": "E:\\MyFrameCore\\MyFrameCore.BLL\\MyFrameCore.BLL.csproj",
+      "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.BLL\\MyFrameCore.BLL.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\MyFrameCore\\MyFrameCore.BLL\\obj\\",
+      "outputPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7389,14 +7389,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\MyFrameCore\\IDAL\\MyFrameCore.IDAL.csproj": {
-              "projectPath": "E:\\MyFrameCore\\IDAL\\MyFrameCore.IDAL.csproj"
+            "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\IDAL\\MyFrameCore.IDAL.csproj": {
+              "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\IDAL\\MyFrameCore.IDAL.csproj"
             },
-            "E:\\MyFrameCore\\DAL\\MyFrameCore.DAL.csproj": {
-              "projectPath": "E:\\MyFrameCore\\DAL\\MyFrameCore.DAL.csproj"
+            "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\DAL\\MyFrameCore.DAL.csproj": {
+              "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\DAL\\MyFrameCore.DAL.csproj"
             },
-            "E:\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj": {
-              "projectPath": "E:\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj"
+            "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj": {
+              "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj"
             }
           }
         }

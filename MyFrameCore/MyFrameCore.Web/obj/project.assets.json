@@ -13899,11 +13899,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\MyFrameCore\\MyFrameCore.Web\\MyFrameCore.Web.csproj",
+      "projectUniqueName": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Web\\MyFrameCore.Web.csproj",
       "projectName": "MyFrameCore.Web",
-      "projectPath": "E:\\MyFrameCore\\MyFrameCore.Web\\MyFrameCore.Web.csproj",
+      "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Web\\MyFrameCore.Web.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\MyFrameCore\\MyFrameCore.Web\\obj\\",
+      "outputPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13922,17 +13922,17 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\MyFrameCore\\CSRedis\\CSRedis.csproj": {
-              "projectPath": "E:\\MyFrameCore\\CSRedis\\CSRedis.csproj"
+            "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\CSRedis\\CSRedis.csproj": {
+              "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\CSRedis\\CSRedis.csproj"
             },
-            "E:\\MyFrameCore\\MyFrameCore.Common\\MyFrameCore.Common.csproj": {
-              "projectPath": "E:\\MyFrameCore\\MyFrameCore.Common\\MyFrameCore.Common.csproj"
+            "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Common\\MyFrameCore.Common.csproj": {
+              "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Common\\MyFrameCore.Common.csproj"
             },
-            "E:\\MyFrameCore\\MyFrameCore.BLL\\MyFrameCore.BLL.csproj": {
-              "projectPath": "E:\\MyFrameCore\\MyFrameCore.BLL\\MyFrameCore.BLL.csproj"
+            "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.BLL\\MyFrameCore.BLL.csproj": {
+              "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.BLL\\MyFrameCore.BLL.csproj"
             },
-            "E:\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj": {
-              "projectPath": "E:\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj"
+            "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj": {
+              "projectPath": "D:\\MyFrameCore\\MyFrameCore\\MyFrameCore\\MyFrameCore.Model\\MyFrameCore.Model.csproj"
             }
           }
         }

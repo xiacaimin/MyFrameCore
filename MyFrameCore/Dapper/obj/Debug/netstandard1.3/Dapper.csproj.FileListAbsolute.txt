@@ -7,3 +7,11 @@ E:\MyFrameCore\Dapper\obj\Debug\netstandard1.3\Dapper.AssemblyInfoInputs.cache
 E:\MyFrameCore\Dapper\obj\Debug\netstandard1.3\Dapper.AssemblyInfo.cs
 E:\MyFrameCore\Dapper\obj\Debug\netstandard1.3\Dapper.dll
 E:\MyFrameCore\Dapper\obj\Debug\netstandard1.3\Dapper.pdb
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\bin\Debug\netstandard1.3\Dapper.deps.json
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\bin\Debug\netstandard1.3\Dapper.dll
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\bin\Debug\netstandard1.3\Dapper.pdb
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\obj\Debug\netstandard1.3\Dapper.csproj.CoreCompileInputs.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\obj\Debug\netstandard1.3\Dapper.AssemblyInfoInputs.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\obj\Debug\netstandard1.3\Dapper.AssemblyInfo.cs
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\obj\Debug\netstandard1.3\Dapper.dll
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\obj\Debug\netstandard1.3\Dapper.pdb
