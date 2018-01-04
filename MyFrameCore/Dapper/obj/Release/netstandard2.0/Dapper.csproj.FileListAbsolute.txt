@@ -1,0 +1,9 @@
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\bin\Release\netstandard2.0\Dapper.deps.json
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\bin\Release\netstandard2.0\Dapper.dll
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\bin\Release\netstandard2.0\Dapper.pdb
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\obj\Release\netstandard2.0\Dapper.csprojResolveAssemblyReference.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\obj\Release\netstandard2.0\Dapper.csproj.CoreCompileInputs.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\obj\Release\netstandard2.0\Dapper.AssemblyInfoInputs.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\obj\Release\netstandard2.0\Dapper.AssemblyInfo.cs
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\obj\Release\netstandard2.0\Dapper.dll
+D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\obj\Release\netstandard2.0\Dapper.pdb

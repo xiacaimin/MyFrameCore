@@ -47,32 +47,7 @@
             Search();
         });
 
-        function formatdate(str, attr) {
-            if (str == null) {
-                return "null";
-            }
-            str = str.replace(/\D/igm, "");
-            if (isNaN(str)) {
-                return str;
-            } else {
-                var fmt = attr || "YYYY-MM-DD", dateNum = parseInt((str.toString()).substring(0, 10)),
-                    times = new Date(dateNum * 1000);
-                var o = {
-                    "M+": times.getMonth() + 1, // 月
-                    "D+": times.getDate(), // 日
-                    "h+": times.getHours(), // 时
-                    "m+": times.getMinutes(), // 分
-                    "s+": times.getSeconds(), // 秒
-                    "q+": Math.floor((times.getMonth() + 3) / 3), // 季度
-                    "ms": times.getMilliseconds() // 毫秒
-                };
-                if (/(Y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (times.getFullYear() + "").substr(4 - RegExp.$1.length));
-                for (var k in o) {
-                    if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
-                }
-                return fmt;
-            }
-        }
+
         function Add() {
             jeBox.open({
                 title: '新增',
@@ -173,7 +148,7 @@
                     { name: '描述', field: 'Description', width: "500", align: 'left', renderer: "" },
                     {
                         name: '创建时间', field: 'CreateDate', width: "200", align: 'left', renderer: function (obj, rowidx) {
-                            return formatdate(obj.CreateDate, "YYYY-MM-DD hh:mm:ss");
+                            return obj.CreateDate;
                         }
                     },
                     {

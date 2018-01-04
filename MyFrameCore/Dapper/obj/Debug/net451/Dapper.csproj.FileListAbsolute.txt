@@ -8,7 +8,6 @@ E:\MyFrameCore\Dapper\obj\Debug\net451\Dapper.pdb
 E:\MyFrameCore\Dapper\obj\Debug\net451\Dapper.csprojResolveAssemblyReference.cache
 D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\bin\Debug\net451\Dapper.dll
 D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\bin\Debug\net451\Dapper.pdb
-D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\obj\Debug\net451\Dapper.csprojResolveAssemblyReference.cache
 D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\obj\Debug\net451\Dapper.csproj.CoreCompileInputs.cache
 D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\obj\Debug\net451\Dapper.AssemblyInfoInputs.cache
 D:\MyFrameCore\MyFrameCore\MyFrameCore\Dapper\obj\Debug\net451\Dapper.AssemblyInfo.cs

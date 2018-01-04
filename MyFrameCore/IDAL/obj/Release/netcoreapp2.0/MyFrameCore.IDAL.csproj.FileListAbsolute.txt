@@ -9,3 +9,14 @@ E:\MyFrameCore\IDAL\obj\Release\netcoreapp2.0\MyFrameCore.IDAL.AssemblyInfoInput
 E:\MyFrameCore\IDAL\obj\Release\netcoreapp2.0\MyFrameCore.IDAL.AssemblyInfo.cs
 E:\MyFrameCore\IDAL\obj\Release\netcoreapp2.0\MyFrameCore.IDAL.dll
 E:\MyFrameCore\IDAL\obj\Release\netcoreapp2.0\MyFrameCore.IDAL.pdb
+D:\MyFrameCore\MyFrameCore\MyFrameCore\IDAL\bin\Release\netcoreapp2.0\MyFrameCore.IDAL.deps.json
+D:\MyFrameCore\MyFrameCore\MyFrameCore\IDAL\bin\Release\netcoreapp2.0\MyFrameCore.IDAL.dll
+D:\MyFrameCore\MyFrameCore\MyFrameCore\IDAL\bin\Release\netcoreapp2.0\MyFrameCore.IDAL.pdb
+D:\MyFrameCore\MyFrameCore\MyFrameCore\IDAL\bin\Release\netcoreapp2.0\MyFrameCore.Model.dll
+D:\MyFrameCore\MyFrameCore\MyFrameCore\IDAL\bin\Release\netcoreapp2.0\MyFrameCore.Model.pdb
+D:\MyFrameCore\MyFrameCore\MyFrameCore\IDAL\obj\Release\netcoreapp2.0\MyFrameCore.IDAL.csprojResolveAssemblyReference.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\IDAL\obj\Release\netcoreapp2.0\MyFrameCore.IDAL.csproj.CoreCompileInputs.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\IDAL\obj\Release\netcoreapp2.0\MyFrameCore.IDAL.AssemblyInfoInputs.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\IDAL\obj\Release\netcoreapp2.0\MyFrameCore.IDAL.AssemblyInfo.cs
+D:\MyFrameCore\MyFrameCore\MyFrameCore\IDAL\obj\Release\netcoreapp2.0\MyFrameCore.IDAL.dll
+D:\MyFrameCore\MyFrameCore\MyFrameCore\IDAL\obj\Release\netcoreapp2.0\MyFrameCore.IDAL.pdb

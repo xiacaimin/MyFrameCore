@@ -6,3 +6,12 @@ E:\MyFrameCore\CSRedis\obj\Release\netcoreapp2.0\CSRedis.AssemblyInfoInputs.cach
 E:\MyFrameCore\CSRedis\obj\Release\netcoreapp2.0\CSRedis.AssemblyInfo.cs
 E:\MyFrameCore\CSRedis\obj\Release\netcoreapp2.0\CSRedis.dll
 E:\MyFrameCore\CSRedis\obj\Release\netcoreapp2.0\CSRedis.pdb
+D:\MyFrameCore\MyFrameCore\MyFrameCore\CSRedis\bin\Release\netcoreapp2.0\CSRedis.deps.json
+D:\MyFrameCore\MyFrameCore\MyFrameCore\CSRedis\bin\Release\netcoreapp2.0\CSRedis.dll
+D:\MyFrameCore\MyFrameCore\MyFrameCore\CSRedis\bin\Release\netcoreapp2.0\CSRedis.pdb
+D:\MyFrameCore\MyFrameCore\MyFrameCore\CSRedis\obj\Release\netcoreapp2.0\CSRedis.csprojResolveAssemblyReference.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\CSRedis\obj\Release\netcoreapp2.0\CSRedis.csproj.CoreCompileInputs.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\CSRedis\obj\Release\netcoreapp2.0\CSRedis.AssemblyInfoInputs.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\CSRedis\obj\Release\netcoreapp2.0\CSRedis.AssemblyInfo.cs
+D:\MyFrameCore\MyFrameCore\MyFrameCore\CSRedis\obj\Release\netcoreapp2.0\CSRedis.dll
+D:\MyFrameCore\MyFrameCore\MyFrameCore\CSRedis\obj\Release\netcoreapp2.0\CSRedis.pdb

@@ -48,22 +48,19 @@ namespace MyFrameCore.Web
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            //开发环境异常处理
+            
             if (env.IsDevelopment())
             {
-                //开发环境异常处理
                 app.UseDeveloperExceptionPage();
                 app.UseBrowserLink();
             }
             else
             {
                 //生产环境异常处理
-                //app.UseExceptionHandler("/HttpError/500.html");
+                app.UseExceptionHandler("/Content/HttpError/500.html");
             }
-            
-            //app.Run(async (context) =>
-            //{
-            //    await context.Response.WriteAsync("hellow world!");
-            //});
+
             //使用StatusCodePagesMiddleware 指定状态对应的显示页面
             Func<StatusCodeContext, Task> handler = async context =>
             {
@@ -72,11 +69,7 @@ namespace MyFrameCore.Web
                 if (resp.StatusCode == 404)
                 {
                     //需要 using Microsoft.AspNetCore.Http;
-                    await resp.WriteAsync("404，该页面不存在！");
-                }
-                else if (resp.StatusCode == 500)
-                {
-                    await resp.WriteAsync("500，服务器端代码异常！");
+                    await resp.WriteAsync("404，此页面路径无效！");
                 }
             };
             app.UseStatusCodePages(handler);

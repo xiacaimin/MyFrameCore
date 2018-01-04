@@ -67,37 +67,51 @@ namespace MyFrameCore.Web.Areas.Admin.Controllers
                 {
                     result = streamReader.ReadToEnd();
                 }
-                JObject jobject = (JObject)JsonConvert.DeserializeObject(result.Replace("\r\n", ""));
-                appsettings = JsonConvert.DeserializeObject<AppSettings>(jobject["AppSettings"].ToString());
-                if (Convert.ToBoolean(appsettings.Redis.IsEnable))
+
+
+                try
                 {
-                    //redis方式
-                    RedisHelper rh = new RedisHelper(appsettings);
-                    UserExtend ue = new UserExtend
+                    JObject jobject = (JObject)JsonConvert.DeserializeObject(result.Replace("\r\n", ""));
+                    appsettings = JsonConvert.DeserializeObject<AppSettings>(jobject["AppSettings"].ToString());
+                    
+                    if (Convert.ToBoolean(appsettings.Redis.IsEnable))
                     {
-                        KeyId = UserInfo.KeyId,
-                        Account = UserInfo.Account,
-                        FullName = UserInfo.FullName,
-                        HeadImg = UserInfo.HeadImg,
-                        WebLastTime = DateTime.Now
-                    };
-                    rh.Set(UserInfo.KeyId, JsonConvert.SerializeObject(ue));
+
+                        //redis方式
+                        RedisHelper rh = new RedisHelper(appsettings);
+                        UserExtend ue = new UserExtend
+                        {
+                            KeyId = UserInfo.KeyId,
+                            Account = UserInfo.Account,
+                            FullName = UserInfo.FullName,
+                            HeadImg = UserInfo.HeadImg,
+                            WebLastTime = DateTime.Now
+                        };
+                        rh.Set(UserInfo.KeyId, JsonConvert.SerializeObject(ue));
+
+
+
+                    }
+                    else
+                    {
+                        //session方式
+                        HttpContext.Session.SetString(ConstConfig.AdminSession, JsonConvert.SerializeObject(UserInfo));
+
+                    }
+
+                    /****用cookie保存登录id，即使session丢失也不必重新登录****/
+                    HttpContext.Response.Cookies.Append(ConstConfig.AdminCookie, UserInfo.KeyId, new CookieOptions
+                    {
+                        Expires = DateTime.Now.AddHours(5)
+                    });
+                    //全局配置的静态类成员再赋值，保证配置文件被更改后立即登陆就不用重启才生效(折中办法)
+                    WebJsonConfig.JsonInfo = JsonConvert.SerializeObject(appsettings);
 
                 }
-                else
+                catch (Exception ex)
                 {
-                    //session方式
-                    HttpContext.Session.SetString(ConstConfig.AdminSession, JsonConvert.SerializeObject(UserInfo));
-
+                    LogHelper.ErrorLog(ex, "Login", "CheckLogin");
                 }
-
-                /****用cookie保存登录id，即使session丢失也不必重新登录****/
-                HttpContext.Response.Cookies.Append(ConstConfig.AdminCookie, UserInfo.KeyId, new CookieOptions
-                {
-                    Expires = DateTime.Now.AddHours(5)
-                });
-                //全局配置的静态类成员再赋值，保证配置文件被更改后立即登陆就不用重启才生效(折中办法)
-                WebJsonConfig.JsonInfo = JsonConvert.SerializeObject(appsettings);
                 #endregion
             }
             return Json(new { Result = Result });

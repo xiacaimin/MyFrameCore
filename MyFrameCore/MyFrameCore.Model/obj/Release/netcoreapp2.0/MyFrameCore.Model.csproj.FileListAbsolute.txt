@@ -7,3 +7,12 @@ E:\MyFrameCore\MyFrameCore.Model\obj\Release\netcoreapp2.0\MyFrameCore.Model.Ass
 E:\MyFrameCore\MyFrameCore.Model\obj\Release\netcoreapp2.0\MyFrameCore.Model.dll
 E:\MyFrameCore\MyFrameCore.Model\obj\Release\netcoreapp2.0\MyFrameCore.Model.pdb
 E:\MyFrameCore\MyFrameCore.Model\obj\Release\netcoreapp2.0\MyFrameCore.Model.csprojResolveAssemblyReference.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Model\bin\Release\netcoreapp2.0\MyFrameCore.Model.deps.json
+D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Model\bin\Release\netcoreapp2.0\MyFrameCore.Model.dll
+D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Model\bin\Release\netcoreapp2.0\MyFrameCore.Model.pdb
+D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Model\obj\Release\netcoreapp2.0\MyFrameCore.Model.csprojResolveAssemblyReference.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Model\obj\Release\netcoreapp2.0\MyFrameCore.Model.csproj.CoreCompileInputs.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Model\obj\Release\netcoreapp2.0\MyFrameCore.Model.AssemblyInfoInputs.cache
+D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Model\obj\Release\netcoreapp2.0\MyFrameCore.Model.AssemblyInfo.cs
+D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Model\obj\Release\netcoreapp2.0\MyFrameCore.Model.dll
+D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Model\obj\Release\netcoreapp2.0\MyFrameCore.Model.pdb

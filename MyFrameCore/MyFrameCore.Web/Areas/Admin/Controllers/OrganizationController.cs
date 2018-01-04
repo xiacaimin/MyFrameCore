@@ -31,7 +31,7 @@ namespace MyFrameCore.Web.Areas.Admin.Controllers
             }
             model = model ?? new sys_organization();
             ViewBag.PId = PId;
-            ViewBag.PId = PName;
+            ViewBag.PName = PName;
             return View(model);
         }
         //新增修改

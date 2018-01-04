@@ -7,7 +7,6 @@ using System.Text;
 using System.Web;
 using System.Linq;
 
-
 namespace MyFrameCore.Api.Filters
 {
     public class ApiSecurityFilter : ActionFilterAttribute

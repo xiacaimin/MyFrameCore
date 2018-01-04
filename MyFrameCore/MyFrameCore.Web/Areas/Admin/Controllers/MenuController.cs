@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace MyFrameCore.Web.Areas.Admin.Controllers
 {
@@ -111,6 +113,16 @@ namespace MyFrameCore.Web.Areas.Admin.Controllers
         public JsonResult PageData(int PageIndex, int PageSize, sys_menu model)
         {
             var page = bll.MenuPage(PageIndex, PageSize, model);
+            if (page != null && page.rows != null)
+            {
+                string json = JsonConvert.SerializeObject(page.rows);
+                JArray ja = (JArray)JsonConvert.DeserializeObject(json);
+                for (int i = 0; i < ja.Count; i++)
+                {
+                    ja[i]["CreateDate"] = ja[i]["CreateDate"] == null ? "" : Convert.ToDateTime(ja[i]["CreateDate"].ToString()).ToString("yyyy-MM-dd HH:mm:ss");
+                }
+                page.rows = ja;
+            }
             return Json(page);
         }
         //按钮视图

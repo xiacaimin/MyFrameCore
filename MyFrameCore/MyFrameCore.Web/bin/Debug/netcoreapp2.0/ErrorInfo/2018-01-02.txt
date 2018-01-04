@@ -1,0 +1,15 @@
+-------------------2018-01-02 15时39分39秒-----------------
+api失败：由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at CSRedis.Internal.IO.RedisSocket.Connect(EndPoint endpoint) in D:\MyFrameCore\MyFrameCore\MyFrameCore\CSRedis\Internal\IO\RedisSocket.cs:line 40
+   at CSRedis.Internal.RedisConnector.Connect() in D:\MyFrameCore\MyFrameCore\MyFrameCore\CSRedis\Internal\RedisConnector.cs:line 61
+   at CSRedis.Internal.RedisConnector.ConnectIfNotConnected() in D:\MyFrameCore\MyFrameCore\MyFrameCore\CSRedis\Internal\RedisConnector.cs:line 223
+   at CSRedis.Internal.RedisConnector.Call[T](RedisCommand`1 command) in D:\MyFrameCore\MyFrameCore\MyFrameCore\CSRedis\Internal\RedisConnector.cs:line 76
+   at CSRedis.RedisClient.Write[T](RedisCommand`1 command) in D:\MyFrameCore\MyFrameCore\MyFrameCore\CSRedis\RedisClient.Sync.cs:line 42
+   at CSRedis.RedisClient.Set(String key, Object value) in D:\MyFrameCore\MyFrameCore\MyFrameCore\CSRedis\RedisClient.Sync.cs:line 1828
+   at CSRedis.QuickHelperBase.Set(String key, String value, Int32 expireSeconds) in D:\MyFrameCore\MyFrameCore\MyFrameCore\CSRedis\QuickHelperBase.cs:line 19
+   at MyFrameCore.Web.RedisHelper.Set(String key, String value, Int32 expireSeconds) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Common\RedisHelper.cs:line 18
+   at MyFrameCore.Web.Areas.Admin.Controllers.LoginController.CheckLogin(sys_user model) in D:\MyFrameCore\MyFrameCore\MyFrameCore\MyFrameCore.Web\Areas\Admin\Controllers\LoginController.cs:line 90
+-------------------------------------------------------
+
